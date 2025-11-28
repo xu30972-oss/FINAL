@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f6f0;
+  font-family: "Patrick Hand", sans-serif;
+  color: #2f3e2f;
+}
+
+.app-container {
+  max-width: 420px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.input-label {
+  margin-top: 18px;
+  display: block;
+  font-size: 18px;
+  color: #4a6145;
+}
+
+input[type="file"] {
+  margin-top: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 2px solid #cdd7c1;
+  background: #fcfdf8;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 20px;
+  background: #7da376;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #6b8f63;
+}
+
+.preview {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #f9fff4;
+  border-left: 6px solid #99b48a;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  white-space: pre-line;
+}
+
+.hidden {
+  display: none;
+}

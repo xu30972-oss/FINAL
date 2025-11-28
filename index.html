@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>植物分析小幫手</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+</head>
+<body>
+
+  <div class="app-container">
+
+    <h1 class="title">🌿 讓我們一起成為綠手指吧！</h1>
+
+    <div class="card">
+
+      <label class="input-label">上傳植物照片</label>
+      <input type="file" id="plantImage" accept="image/*">
+
+      <label class="input-label">幫植物取個名字（可略過）</label>
+      <input type="text" id="plantName" placeholder="例如：小綠、波波、森森…">
+
+      <button id="analyzeBtn">進行分析</button>
+
+      <img id="preview" class="preview hidden" />
+
+      <div id="result" class="result-box hidden"></div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
